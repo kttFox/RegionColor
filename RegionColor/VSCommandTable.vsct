@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Include href="VSGlobals.vsct"/>
+
+  <Commands package="RegionColor">
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="RegionColor" value="{52ba83c1-46f3-4991-b0ee-4e868fca3269}">
+      
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
