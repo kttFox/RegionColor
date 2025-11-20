@@ -1,9 +1,6 @@
 ﻿global using System;
-
 global using Community.VisualStudio.Toolkit;
-
 global using Microsoft.VisualStudio.Shell;
-
 global using Task = System.Threading.Tasks.Task;
 
 using System.Runtime.InteropServices;

@@ -1,16 +1,22 @@
 ﻿<?xml version="1.0" ?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="RegionColor.60e7aa9a-fcf4-48ed-b9bf-4c41869392c7" Version="1.0" Language="ja-JP" Publisher="kttFox" />
+        <Identity Id="RegionColor.60e7aa9a-fcf4-48ed-b9bf-4c41869392c7" Version="1.0.1" Language="ja-JP" Publisher="kttFox" />
         <DisplayName>RegionColor</DisplayName>
         <Description xml:space="preserve">Regionの文字色をGrayに変更します。
 Change Region Foreground to Gray.</Description>
+        <MoreInfo>https://github.com/kttFox/RegionColor</MoreInfo>
+        <License>https://github.com/kttFox/RegionColor/blob/master/LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
+        <Tags>Region</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+        <InstallationTarget Version="[17.0,)" Id="Microsoft.VisualStudio.Community">
             <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>arm64</ProductArchitecture>
         </InstallationTarget>
     </Installation>
     <Prerequisites>

@@ -1,5 +1,5 @@
 # RegionColor
-Visual Studio 2022 Extension
+Visual Studio 2022 / 2026 Extension
 
 Regionの文字色をGrayに変更します。  
 Change Region Foreground to Gray.
@@ -9,7 +9,6 @@ Change Region Foreground to Gray.
 　　　↓  
 ![image](https://github.com/kttFox/RegionColor/assets/22765277/fe9a862b-8ab7-4745-a1c1-da1e440790e4)
 
-</br>
 </br>
 </br>
   
