@@ -12,6 +12,6 @@ Change Region Foreground to Gray.
 </br>
 </br>
   
-# Original
-thank you.  
-https://github.com/sodza/gt-code region-extension
+# Original Source
+This project includes partial code derived from the following repository:  
+https://github.com/sodza/gt-code
