@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.Text.Classification;
 using Microsoft.VisualStudio.Utilities;
 
 namespace RegionColor {
-	// https://github.com/sodza/gt-code/tree/08976827faf27835fc0f59cddb6fd53f90dc42c7/region-extension
+	// https://github.com/sodza/gt-code/
 	
 	public static class TypeExports {
 		[Export( typeof( ClassificationTypeDefinition ) )]
@@ -24,7 +24,4 @@ namespace RegionColor {
 			ForegroundColor = Colors.Gray;
 		}
 	}
-
-	#region Name
-	#endregion
 }
